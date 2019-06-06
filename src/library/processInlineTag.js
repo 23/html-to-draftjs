@@ -3,7 +3,7 @@ const inlineTags = {
   del: 'STRIKETHROUGH',
   em: 'ITALIC',
   strong: 'BOLD',
-  ins: 'UNDERLINE',
+  u: 'UNDERLINE',
   sub: 'SUBSCRIPT',
   sup: 'SUPERSCRIPT',
 };
@@ -44,7 +44,7 @@ export default function processInlineTag(
         style.add(inlineTags.strong)
       }
       if(textDecoration === 'underline'){
-          style.add(inlineTags.ins)
+          style.add(inlineTags.u)
       }
       if(fontStyle === 'italic'){
           style.add(inlineTags.em)
