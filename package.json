@@ -1,10 +1,10 @@
 {
-  "name": "html-to-draftjs",
+  "name": "@23/html-to-draftjs",
   "version": "1.4.0",
   "main": "dist/html-to-draftjs.js",
   "repository": {
     "type": "git",
-    "url": "https://github.com/jpuri/html-to-draftjs.git"
+    "url": "https://github.com/23/html-to-draftjs.git"
   },
   "devDependencies": {
     "babel-core": "^6.26.0",
